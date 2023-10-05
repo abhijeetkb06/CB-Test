@@ -23,17 +23,17 @@ class CloudExample
         );
 
         var loggerFactory = serviceCollection.BuildServiceProvider().GetService<ILoggerFactory>();
-        loggerFactory.AddFile("C:\\\\logs\\WithPrivateEndpoint-{Date}.txt", LogLevel.Debug);
+        loggerFactory.AddFile("~/Downloads/DebugLogOutput.txt", LogLevel.Debug);
 
         //ILoggerFactory factory = new LoggerFactory();
         //factory.AddLog4Net("log4net.config");
 
         var options = new ClusterOptions
         {
-            // Update these credentials for your Capella instance
-            ConnectionString = "couchbases://private-endpoint.ui0cn1dkh45zmrb.cloud.couchbase.com",
-            UserName = "dhruv",
-            Password = "Couchbase@123",
+            // Update these credentials for your Database instance
+            ConnectionString = "couchbases://cb.ov8a3srzpuh7or.cloud.couchbase.com",
+            UserName = "abhijeet",
+            Password = "Password@P1",
             KvConnectTimeout = TimeSpan.FromMilliseconds(2000),
             NumKvConnections = 10,
             EnableConfigPolling = false,

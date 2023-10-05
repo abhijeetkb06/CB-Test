@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Desktop\\CB-Test\\CB-Test\\CB-Test.csproj": {}
+    "/Users/abhijeetbehera/Documents/Git/CB-Test/CB-Test/CB-Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\CB-Test\\CB-Test\\CB-Test.csproj": {
+    "/Users/abhijeetbehera/Documents/Git/CB-Test/CB-Test/CB-Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\CB-Test\\CB-Test\\CB-Test.csproj",
+        "projectUniqueName": "/Users/abhijeetbehera/Documents/Git/CB-Test/CB-Test/CB-Test.csproj",
         "projectName": "CB-Test",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\CB-Test\\CB-Test\\CB-Test.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\CB-Test\\CB-Test\\obj\\",
+        "projectPath": "/Users/abhijeetbehera/Documents/Git/CB-Test/CB-Test/CB-Test.csproj",
+        "packagesPath": "/Users/abhijeetbehera/.nuget/packages/",
+        "outputPath": "/Users/abhijeetbehera/Documents/Git/CB-Test/CB-Test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/abhijeetbehera/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -81,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }
